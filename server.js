@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 });
 
 // Db Config
-const connection_url = 'mongodb+srv://adim:<p22BOM-tLMUy9xa.>@cluster0.zvw6u.mongodb.net/<chatappdb>?retryWrites=true&w=majority'
+const connection_url = 'mongodb+srv://adim:p22BOM-tLMUy9xa.@cluster0.zvw6u.mongodb.net/chatappdb?retryWrites=true&w=majority'
 
 mongoose.connect(connection_url, {
     useCreateIndex: true,
