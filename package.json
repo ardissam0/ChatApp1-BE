@@ -1,0 +1,26 @@
+{
+  "name": "chatapp1-be",
+  "version": "1.0.0",
+  "description": "Backend for chat app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "pusher": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardissam0/ChatApp1-BE.git"
+  },
+  "author": "Sam Ardis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardissam0/ChatApp1-BE/issues"
+  },
+  "homepage": "https://github.com/ardissam0/ChatApp1-BE#readme"
+}
